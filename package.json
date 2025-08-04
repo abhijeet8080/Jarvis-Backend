@@ -93,8 +93,10 @@
     "wrappy": "^1.0.2"
   },
   "scripts": {
+    "build": "tsc",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "ts-node-dev src/server.ts"
+    "dev": "ts-node-dev src/server.ts",
+    "start": "node dist/server.js"
   },
   "keywords": [],
   "author": "",
